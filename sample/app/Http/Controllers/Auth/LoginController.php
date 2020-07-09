@@ -45,6 +45,7 @@ class LoginController extends Controller
      * ユーザー認証のカスタマイズ
      *
      * デフォルトだと email フィールドを認証に使用するらしいので、 user_cd を使用するように変更する
+     * テーブルは auth.php で定義している(providers のところを見てみよう)
      *
      * @return [type] [description]
      */

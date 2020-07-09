@@ -17,7 +17,8 @@ class DatabaseSeeder extends Seeder
         // BooksSeederを読み込むように指定
         $this->call([
             BooksSeeder::class,
-            // UserSeeder::class,
+            UserSeeder::class,
+            MstUserSeeder::class,
         ]);
     }
 }

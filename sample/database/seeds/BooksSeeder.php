@@ -16,13 +16,13 @@ class BooksSeeder extends Seeder
 
         // 初期データ用意（列名をキーとする連想配列）
         $books = [
-            ['name' => 'PHP Book',
+            ['book_name' => 'PHP Book',
              'price' => 2000,
              'author' => 'PHPER'],
-            ['name' => 'Laravel Book',
+            ['book_name' => 'Laravel Book',
              'price' => 3000,
              'author' => null],
-            ['name' => 'Ruby Book',
+            ['book_name' => 'Ruby Book',
              'price' => 2500,
              'author' => 'Rubyist']
         ];
